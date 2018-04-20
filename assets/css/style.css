@@ -335,6 +335,10 @@ ol, ul {
     -ms-transform: translateX(0);  /* IE 9 */
     transform: translateX(0);  /* Firefox 16+, IE 10+, Opera */
 }
+.navbar-nav > li > a,
+.attr-nav > ul > li > a {
+    text-transform: uppercase;
+}
 #loader-wrapper .loader-section.section-left {
     left: 0;
 }
@@ -475,6 +479,7 @@ nav.navbar.bootsnav .navbar-toggle {
     }
     nav.navbar .navbar-brand{
         margin-top: 0;
+        padding: 0 15px;
     }
     nav.navbar .navbar-brand{
         margin-top: 0;
@@ -1147,7 +1152,7 @@ ul.cart-list > li.total > .btn:focus{
 /*07. Converter*/
 /********************************************/
 .calculate{
-    padding: 90px 0;
+    padding: 60px 0;
     background-color: #fafafe;
     position: relative;
 }
@@ -1237,7 +1242,7 @@ ul.cart-list > li.total > .btn:focus{
 .features__content {
     position: relative;
     background-color: #25258E;
-    padding: 90px 0 40px;
+    padding: 60px 0 40px;
 }
 .features__content .section_title h3 {
     color: #fff;
@@ -1330,7 +1335,7 @@ ul.cart-list > li.total > .btn:focus{
 }
 .crypto-strat {
     text-align: center;
-    padding: 90px 0;
+    padding: 60px 0;
     background: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#f9f9fc));
     background: -o-linear-gradient(top,#fff 0,#f9f9fc 100%);
     background: linear-gradient(180deg,#fff 0,#f9f9fc);
@@ -2850,8 +2855,10 @@ table.dataTable thead .sorting_asc::after {
         padding: 15px;
     }
 }
-.exchange-content{
-    /*margin-top: 40px;*/
+
+.exchange-content--list {
+    list-style-type: disc;
+    line-height: 28px;
 }
 /*20. About Page Widgets*/
 /********************************************/
