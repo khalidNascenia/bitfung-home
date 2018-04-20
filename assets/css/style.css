@@ -869,13 +869,13 @@ ul.cart-list > li.total > .btn:focus{
     z-index: 0;
 }
 .slide-one{
-    background-image: url(../img/slider/1920x1280-1.jpg);
+    background-image: url(../img/slider/slide-one.jpg);
 }
 .slide-two{
-    background-image: url(../img/slider/1920x1280-2.jpg);
+    background-image: url(../img/slider/slide-two.jpg);
 }
 .slide-three{
-    background-image: url(../img/slider/1920x1280-3.jpg);
+    background-image: url(../img/slider/slide-three.jpg);
 }
 .slide-table {
     display: table;
