@@ -2362,6 +2362,15 @@ table.dataTable thead .sorting_asc::after {
     list-style-type: circle;
     padding-left: 17px;
 }
+.kyc-content ol.kyc-ol,
+.kyc-content ol.kyc-ol .nested  {
+    list-style-type: decimal;
+    padding: 15px;
+}
+.nested .alphabetical-list {
+    list-style-type: lower-alpha;
+    padding: 15px;
+}
 .post_details ol{
     list-style-type: lower-roman;
     padding-left: 22px;
@@ -2859,6 +2868,9 @@ table.dataTable thead .sorting_asc::after {
 .exchange-content--list {
     list-style-type: disc;
     line-height: 28px;
+}
+.kyc-list {
+    padding-left: 40px;
 }
 /*20. About Page Widgets*/
 /********************************************/
