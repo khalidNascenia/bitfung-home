@@ -2362,6 +2362,9 @@ table.dataTable thead .sorting_asc::after {
     list-style-type: circle;
     padding-left: 17px;
 }
+.apply-to-list {
+    margin-top: 50px;
+}
 .kyc-content ol.kyc-ol,
 .kyc-content ol.kyc-ol .nested  {
     list-style-type: decimal;
