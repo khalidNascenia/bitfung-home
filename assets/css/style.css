@@ -1526,6 +1526,10 @@ table.dataTable thead > tr > td.sorting {
     vertical-align: middle;
     border-top: 0;
 }
+.live-rate {
+    height: 500px;
+    margin-top: 40px;
+}
 .table > tbody > tr{
     pointer-events: none;
 }
