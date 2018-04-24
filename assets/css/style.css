@@ -2360,7 +2360,7 @@ table.dataTable thead .sorting_asc::after {
 }
 .post_details ul{
     list-style-type: circle;
-    padding-left: 17px;
+    padding-left: 17px;.newsletter-box
 }
 .apply-to-list {
     margin-top: 50px;
@@ -3513,6 +3513,10 @@ table.dataTable thead .sorting_asc::after {
 /*newslatter*/
 .newsletter-box {
     margin-bottom: 20px;
+    margin-top: -15px;
+}
+.pricing .table-login-history thead tr{
+    border-bottom: 1px solid #DDDDDD !important;
 }
 .newsletter-box p{ }
 .newsletter-box .newsletter-form {
