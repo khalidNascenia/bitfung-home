@@ -1375,6 +1375,18 @@ ul.cart-list > li.total > .btn:focus{
         margin-bottom: 30px;
     }
 }
+@media(max-width: 420px){
+    .table-login-history th,
+    .table-login-history td {
+        font-size: 10px;
+    }
+}
+@media(max-width: 370px){
+    .table-login-history th,
+    .table-login-history td {
+        font-size: 8px;
+    }
+}
 @media(min-width: 768px){
     .start-steps {
         display: -webkit-box;
@@ -1475,9 +1487,7 @@ ul.cart-list > li.total > .btn:focus{
     min-height: 300px;
     border: 1px solid #f1f1f9;
 }
-.table {
-    width: 100% !important;
-}
+
 table.dataTable>tbody>tr.child ul.dtr-details {
     width: 100%;
 }
@@ -3513,12 +3523,17 @@ table.dataTable thead .sorting_asc::after {
 /*newslatter*/
 .newsletter-box {
     margin-bottom: 20px;
-    margin-top: -15px;
+    margin-top: -20px;
+}
+.text-bold {
+    font-weight: bold;
+}
+.icon-fee {
+    width: 20px;
 }
 .pricing .table-login-history thead tr{
     border-bottom: 1px solid #DDDDDD !important;
 }
-.newsletter-box p{ }
 .newsletter-box .newsletter-form {
     position: relative;
     overflow: hidden;
