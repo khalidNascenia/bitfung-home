@@ -478,11 +478,7 @@ nav.navbar.bootsnav .navbar-toggle {
         font-weight: 600;
     }
     nav.navbar .navbar-brand{
-        margin-top: 0;
-        padding: 0 15px;
-    }
-    nav.navbar .navbar-brand{
-        margin-top: 0;
+        padding: 23px 15px;
     }
     nav.navbar li.dropdown ul.dropdown-menu{
         border-top: solid 5px;
